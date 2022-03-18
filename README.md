@@ -5,7 +5,7 @@ Home: https://pypi.org/project/svgdigitizer/
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svgdigitizer-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svgdigitizer-feedstock/blob/main/LICENSE.txt)
 
 Summary: svgdigitizer is a Python library and command line tool to recover the measured data underlying plots in scientific publications.
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15321&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/svgdigitizer-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15321&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/svgdigitizer-feedstock?branchName=main">
       </a>
     </td>
   </tr>
