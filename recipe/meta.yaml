@@ -1,5 +1,5 @@
 {% set name = "svgdigitizer" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgdigitizer-{{ version }}.tar.gz
-  sha256: 4e031af096a76bd6315ad945ebae325c426f32a6a45df71b45abe67f52b2a1f5
+  sha256: c5fdc98e339c910a787284274397b80ebf408f88288ab77158d96c496536fc5b
 
 build:
   entry_points:
@@ -22,7 +22,8 @@ requirements:
     - python >=3.9
   run:
     - astropy >=5,<6
-    - click >=8,<9
+    # https://github.com/echemdb/svgdigitizer/issues/152
+    - click >=8,<8.1
     - frictionless >=4,<5
     - matplotlib-base >=3.5,<4
     - mergedeep >=1.3.4,<2
