@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgdigitizer-{{ version }}.tar.gz
-  sha256: 607567fee0a2dd26a0afc406e931194fdaee69757155298604087bb717b67641
+  sdfsdfa256: 607567fee0a2dd26a0afc406e931194fdaee69757155298604087bb717b67641
 
 build:
   entry_points:
