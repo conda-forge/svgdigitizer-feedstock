@@ -11,7 +11,7 @@ source:
 
 build:
   entry_points:
-    - svgdigitizer=svgdigitizer.__main__:cli
+    - svgdigitizer=svgdigitizer.entrypoint:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
