@@ -1,5 +1,5 @@
 {% set name = "svgdigitizer" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgdigitizer-{{ version }}.tar.gz
-  sha256: 6b6a4bc566d43c87449b6d3becbcdccf204e9caf3a38ad9b5f7bb27ae13b3c5a
+  sha256: 59531d9cd391e1e9aedc41e3c984a4e79de0b59687145f8bb8c4e6402e69668d
 
 build:
   entry_points:
@@ -30,6 +30,7 @@ requirements:
     - pandas >=1.3,<2
     - pdf2image >=1.16,<2
     - pillow >=9,<10
+    - pybtex >=0.24,<0.25
     - python >=3.9
     - pyyaml >=6,<7
     - scipy >=1.7,<2
