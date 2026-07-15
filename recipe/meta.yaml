@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - astropy-base >=5,<8
+    - astropy-base >=5,<9
     # https://github.com/echemdb/svgdigitizer/issues/152
     - click >=8,<9
     - frictionless >=5.8.3,<6
