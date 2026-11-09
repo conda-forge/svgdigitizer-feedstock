@@ -26,11 +26,12 @@ requirements:
     # https://github.com/echemdb/svgdigitizer/issues/152
     - click >=8,<9
     - frictionless >=5.8.3,<6
+    - latexcodec >=2.0.1
     - matplotlib-base >=3.5,<4
     - mergedeep >=1.3.4,<2
     - pandas >=1.3,<4
-    - pillow >=9,<12
-    - pybtex >=0.25,<0.26
+    - pillow >=9,<13
+    - pybtex >=0.25,<0.27
     - pymupdf >=1.27.1,<2
     - python >={{ python_min }}
     - pyyaml >=6,<7
