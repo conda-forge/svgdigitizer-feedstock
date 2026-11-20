@@ -1,5 +1,5 @@
 {% set name = "svgdigitizer" %}
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/svgdigitizer-{{ version }}.tar.gz
-  sha256: 9f41103b8dca25d1a6a6057f6e50e0b1c93d592eb5bce2546b39fcd9feb50683
+  sha256: 9ca8eaa06f8b7be5935212d1a973429d7c41db3f1e93b5fe30e3467035450269
 
 build:
   entry_points:
