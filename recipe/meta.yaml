@@ -1,5 +1,5 @@
 {% set name = "svgdigitizer" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/svgdigitizer-{{ version }}.tar.gz
-  sha256: 9ca8eaa06f8b7be5935212d1a973429d7c41db3f1e93b5fe30e3467035450269
+  sha256: 62d2b3f730d347efe3320c8195377ddc372c050ea47381af7d862e0692c4f655
 
 build:
   entry_points:
@@ -32,7 +32,7 @@ requirements:
     - pandas >=1.5,<4
     - pillow >=13,<14
     - pybtex >=0.25,<0.27
-    - pymupdf >=1.27.1,<2
+    - pymupdf >=1.27.1,<3
     - python >={{ python_min }}
     - pyyaml >=6,<7
     - requests >2,<3
